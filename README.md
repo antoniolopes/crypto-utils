@@ -5,6 +5,8 @@ I needed a quick and dirty way to do some AES encrypting/decrypting with a 128 b
 
 I might add some other encryption techniques in here, hence the generic "crypto-utils" name for the repo.
 
+Feel free to fork this and add your own. Just send me a pull request later.
+
 
 Dependencies
 ------------
@@ -14,7 +16,7 @@ Apache commons codec (included in the lib folder) for Base64 encoding/decoding
 Example
 -------
 
-You can check the ''main'' function in the util class but the gist of it is this:
+You can check the ``main`` function in the util class but the gist of it is this:
 
     final String text_to_encrypt = "This is the text to encrypt";
     final String encryption_key = "the encryption key"; // can be any size
